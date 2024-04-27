@@ -8,3 +8,9 @@ export interface NewPerson extends NewUser {
     gender: string,
     hasJob: boolean,
 }
+
+export interface Todo {
+    id: number;
+    todo: string;
+    isDone: boolean;
+}
