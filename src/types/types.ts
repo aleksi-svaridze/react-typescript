@@ -21,3 +21,9 @@ export type TodosProps = {
     todos: Todo[];
     setTodos: React.Dispatch<React.SetStateAction<Todo[]>>
 }
+
+export type SingleTodosProps = {
+    todo: Todo;
+    todos: Todo[];
+    setTodos: React.Dispatch<React.SetStateAction<Todo[]>>
+}

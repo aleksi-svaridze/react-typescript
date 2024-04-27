@@ -30,7 +30,10 @@ const App:React.FC = () => {
 
       <div className="grid grid-cols-2 w-2/3 gap-x-4 mx-auto mt-8 p-4 bg-blue-700 rounded-lg">
         <div className="flex flex-col gap-y-3">
-         <TodoList todos={todos} setTodos={setTodos} />
+         <TodoList 
+          todos={todos} 
+          setTodos={setTodos}
+          />
         </div>
 
         <div className="bg-orange-300">
